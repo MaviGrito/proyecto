@@ -1,0 +1,14 @@
+<launch>    
+	
+	<include file="$(find proyecto)/launch/turtlebot3_world.launch"/>
+
+
+<!-- Se lanza nodo de creacion de mapa -->
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch">
+     <arg name="slam_methods" value="gmapping"/>
+  </include>
+	
+
+	<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_simulation.launch"/>
+
+</launch>
