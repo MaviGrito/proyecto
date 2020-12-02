@@ -5,3 +5,4 @@ este proyecto corresponde a la asignatura de robotica movil
 
 el mapa es creado en gazebo 
 los archivos usados son base y modificados.
+solicito ayuda para corregir el archivo turtlebot3_navigation.launch
